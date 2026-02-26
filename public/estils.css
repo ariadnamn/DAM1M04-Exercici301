@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.warning {
+  background-color: #ffe0e0;
+  padding: 10px;
+  border: 1px solid red;
+}
+
+.badge {
+  font-weight: bold;
+  color: blue;
+}
+
+.petita {
+  color: green;
+  font-weight: bold;
+}
+
+.gran {
+  color: darkred;
+  font-weight: bold;
+}
