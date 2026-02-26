@@ -1,4 +1,26 @@
-"scripts": {
-  "dev": "nodemon server/app.js",
-  "start": "node server/app.js"
+{
+  "name": "dam1m04-exercici301",
+  "version": "1.0.0",
+  "description": "Exercici 301 - Node + Express + HBS",
+  "main": "server/app.js",
+  "scripts": {
+    "dev": "nodemon server/app.js",
+    "start": "node server/app.js",
+    "pm2start": "pm2 start ./server/app.js --name app",
+    "pm2stop": "pm2 stop app",
+    "pm2restart": "pm2 restart app",
+    "pm2delete": "pm2 delete app",
+    "pm2list": "pm2 list",
+    "pm2logs": "pm2 logs app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
